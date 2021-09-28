@@ -1,0 +1,21 @@
+Package: rpkgreprex
+Title: Skeleton R Package to Provide Reprexes
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Wil",
+             family = "Davis",
+             role = c("aut", "cre"),
+             email = "william.davis@worthingtonindustries.com",
+             comment = c(ORCID = "0000-0001-9780-2576"))
+Description: Skeleton R package to provide reprex's for package-related issues.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+    glue
+Suggests: 
+    testthat (>= 3.0.0)
+Remotes: Mikata-Project/ggthemr
+Config/testthat/edition: 3
